@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sravani
+spec:
+  containers:
+  - name: con-1
+    image: tomcat:8
+  - name: con-2
+    image: nginx
+  
+
